@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-image: url('../images/fondoVerde.jpg');  
+}
+
+.container .title{
+    text-align: center;
+    font-size: 65px;
+    font-weight: bolder;
+    margin-top: 2%;
+    color:white
+}
+
+.container .subtitle{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(255, 121, 10);
+    font-weight:bold;
+}
+
+.container .subtitle2{
+    color: white;
+}
+
+.botonChiste{
+    margin-top: 30px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border-style: none;
+    background: rgb(255, 121, 10);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    color:white;
+}

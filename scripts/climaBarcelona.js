@@ -1,8 +1,5 @@
-// ********************* LEVEL 2 - EXERCICE 1 *******************************
+//Nivel 2 
 'use strict'
-
-// *************************** BARCELONA *******************************
-
 
 const API = "https://www.el-tiempo.net/api/json/v2/provincias/08/municipios/08019"; 
 

@@ -11,27 +11,55 @@
 </head>
 
 <body>
-    <section class="container">
-        <h2 class="title">Chistoteka</h2>
-        <p class="subtitle">Los mejores chistes están aquí!!!</p>
-
-        <div class="chiste">
-            <h2 class="subtitle2">Quieres reirte? Dale click!! =D</h2>
-        </div>
-
-        <button class="botonChiste" id="botonChiste" onclick="generarChiste()">Siguiente
-            Chiste</button>
-        </div>
-
-        <div>
-            <div class="listaChistes" id="jose">
-                <p class="text" id="content"></p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mt-5 ">
+                <h2 class="title">Chistoteka</h2>
+                <p class="subtitle">Los mejores chistes están aquí!!!</p>
             </div>
         </div>
 
-    </section>
+        <div class="row">
+            <div class="col-md-8">
+                <div class=" chiste">
+                    <h2 class="subtitle2">Quieres reirte? Dale click!! =D</h2>
+                </div>
+
+                <button class="botonChiste" id="botonChiste" onclick="generarChiste()">Siguiente
+                    Chiste</button>
+
+
+                <div>
+                    <div class="listaChistes" id="jose">
+                        <p class="text" id="content"></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Nivel 2-->
+            <div class="climaBarcelona">
+                <div class="col-md-12 text-center">
+                    <div class="info">
+
+                        <div id="clima">
+                            <h2>Clima Hoy!!!</h2>
+                            <h3 id="fecha">Fecha</h3>
+                            <h3 id="ciudad">Ciudad</h3>
+                            <h3 id="temperatura">Temperatura</h3>
+                            <div class="descrip" id="description">description</div>
+                            <div id="lluvia">Lluvia</div>
+                            <div id="humedad">Humedad</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="./scripts/index.js" type='text/javascript'></script>
+    <script src="./scripts/climaBarcelona.js" type='text/javascript'></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>

@@ -50,3 +50,15 @@ body{
     color: rgb(255, 121, 10);
     border-radius: 20px;
 }
+
+
+
+.info {
+    background-color:  rgb(255, 121, 10) !important;
+    margin: 0;
+    padding: 1 rem;
+    border-radius: 10px;
+    color:white;
+    box-shadow: 2px 2px 15px 10px rgba(0, 0, 0, 0.1);
+    width:100%;
+}

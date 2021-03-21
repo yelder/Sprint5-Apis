@@ -38,3 +38,15 @@ body{
     font-size: 20px;
     color:white;
 }
+
+.listaChistes {
+    background-color: white;
+    font-size: 20px;
+    width: 40%;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2rem;
+    color: rgb(255, 121, 10);
+    border-radius: 20px;
+}
